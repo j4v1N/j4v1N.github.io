@@ -1,0 +1,39 @@
+p{
+  color:#FFFFFF ;
+}
+.box{
+  background-image:url("imágenes/girl.jpg");
+}
+.song{
+  padding:10px; float: right;
+  color: #3E1929;
+}
+body{
+ background:#896c5a;
+ background-image: url("girl.jpg");
+ /* background-image: url("https://i.pinimg.com/564x/16/13/bd/1613bd1e1adaaa875c2044e7b8c20f02.jpg"); */
+ /* background-size: auto; */
+ background-size: 600px 900px ;
+ background-size: 50%:50% ;
+ background-repeat: no-repeat;
+ background-position: center;
+ font-family: 'Source Serif Pro', serif;
+}
+.biografía{
+  text-align: right; justify-content: space-around;
+  text-transform: full-width;
+}
+.texto{
+  text-align: justify;
+  padding-right:280px;
+}
+  /* esta es la forma de hacer una clase */
+.profile{
+  padding: 10px; float:right;
+}
+.pics{
+  padding: 10px;
+}
+.azul{
+  color:  blue;
+}
