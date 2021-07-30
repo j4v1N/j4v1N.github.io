@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <h1>Tuviste una pesadilla?</h1>
+  <button id="playBtn" name="button"> Play</button>
+  <button id="pauseBtn" name="button"> Pause </button>
+  <button id="stopBtn" name="button"> stop </button>
+  <h4> Reproduce este audio para escuchar la historia </h4>
+  <div class="flex-container">
+    <img src="imagenes/1.gif" alt="">
+  </div>
+  <!-- <audio src="audio/.ogg" controls >  </audio> -->
+  <audio loop id="player">
+    <source src="audio/pesadilla.ogg " type="audio/ogg">
+    "Este navegador no soporta archivos de audio"
+  </audio>
+<script src="js/script.js"></script>
+  </body>
+</html>
