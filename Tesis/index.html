@@ -7,253 +7,260 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <div class="Titulo">
-      <h1>La Iluminación Como Forma Espacial.</h1>
-      <h3>"El Pasaje" de Adolfo Couve.</h3>
-      <button class="T" onclick="AbreConclusion()"><p>Conclusión</p></button>
-      <button class="T" onclick="AbreLuz()"><p>La Luz</p></button>
-      <button  class="T"onclick="AbrePenumbra()"><p>La Penumbra</p></button>
-      <button  class="T"onclick="AbreAnalisis()"><p>Análisis</p></button>
-      <button  class="T"onclick="AbreElementos()"><p>Elementos Narrativos</p></button>
-      <button class="T" onclick="AbreIntro1()"><p>Introducción</p></button>
+    <div class="containerMain">
+      <div class="Titulo">
+        <h1>La Iluminación Como Forma Espacial.</h1>
+        <h3>"El Pasaje" de Adolfo Couve.</h3>
+        <button class="T" onclick="AbreConclusion()"><p>Conclusión</p></button>
+        <button class="T" onclick="AbreLuz()"><p>La Luz</p></button>
+        <button  class="T"onclick="AbrePenumbra()"><p>La Penumbra</p></button>
+        <button  class="T"onclick="AbreAnalisis()"><p>Análisis</p></button>
+        <button  class="T"onclick="AbreElementos()"><p>Elementos Narrativos</p></button>
+        <button class="T" onclick="AbreIntro1()"><p>Introducción</p></button>
 
-      <p class="Autoría">Javiera Navarrete Garrido</p>
-      <p class="Autoría2" style="text-decoration-line:line-through" >|M° Constanza Opazo</p>
-      <!-- <div class="Cerrar">
-        <button onclick="Cerar()">Cerrar</button>
-      </div> -->
+        <p class="Autoría">Javiera Navarrete Garrido</p>
+        <p class="Autoría2" style="text-decoration-line:line-through" >|M° Constanza Opazo</p>
+        <!-- <div class="Cerrar">
+          <button onclick="Cerar()">Cerrar</button>
+        </div> -->
 
-      <div class="containerInt" id="intro1" style="display:none">
-        <ul class="slider" >
-          <li id="introduccion1">
-            <img src="Imagenes/01.Autor.jpg" alt="Reseña de Adolfo Couve">
-          </li>
-          <li id="introduccion2"><img src="Imagenes/02.Objetivo y Tema.jpg" alt="Objetivo y Tema de la Investigación">
-          </li>
-          <li id="introduccion3"><img src="Imagenes/03.Metodología.jpg" alt="Metodología y Marco Teórico"></li>
-        </ul>
-      </div>
-      <div class="boxmenu" id="menu" style="visibility:hidden">
-        <ul class="menu">
-          <li>
-            <a href="#introduccion1">1</a>
-          </li>
-          <li>
-            <a href="#introduccion2">2</a>
-          </li>
-          <li>
-            <a href="#introduccion3">3</a>
-          </li>
-        </ul>
-      </div>
+        <div class="containerInt" id="intro1" style="display:none">
+          <ul class="slider" >
+            <li id="introduccion1">
+              <img src="Imagenes/01.Autor.jpg" alt="Reseña de Adolfo Couve">
+            </li>
+            <li id="introduccion2"><img src="Imagenes/02.Objetivo y Tema.jpg" alt="Objetivo y Tema de la Investigación">
+            </li>
+            <li id="introduccion3"><img src="Imagenes/03.Metodología.jpg" alt="Metodología y Marco Teórico"></li>
+          </ul>
+        </div>
+        <div class="boxmenu" id="menu" style="visibility:hidden">
+          <ul class="menu">
+            <li>
+              <a href="#introduccion1">1</a>
+            </li>
+            <li>
+              <a href="#introduccion2">2</a>
+            </li>
+            <li>
+              <a href="#introduccion3">3</a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="containerEle" id="elem1" style="display:none">
-        <ul class="slider1" >
-          <li id="elementos1">
-            <img src="Imagenes/04.Datos especificos.jpg" alt="Datos Especificos">
-          </li>
-          <li id="elementos2"><img src="Imagenes/05.Contexto histórico.jpg" alt="Contexto Histórico">
-          </li>
-          <li id="elementos3"><img src="Imagenes/06.Resumen.jpg" alt="Resumen libro:'El pasaje' "></li>
-          <li id="elementos4"><img src="Imagenes/07.il.Personajes.jpg" alt="Diagrama de Personajes"></li>
-          <li id="elementos5"><img src="Imagenes/08.il.Temporalidad.jpg" alt="Diagrama de Temporalidad"></li>
-          <li id="elementos6"><img src="Imagenes/09.Espacios Narrativos.jpg" alt="Espacios Narrativos presentes en el imaginario del libro"></li>
-        </ul>
-      </div>
-      <div class="boxmenu1" id="menu1" style="visibility:hidden">
-        <ul class="menu1">
-          <li>
-            <a href="#elementos1">1</a>
-          </li>
-          <li>
-            <a href="#elementos2">2</a>
-          </li>
-          <li>
-            <a href="#elementos3">3</a>
-          </li>
-          <li>
-            <a href="#elementos4">4</a>
-          </li>
-          <li>
-            <a href="#elementos5">5</a>
-          </li>
-          <li>
-            <a href="#elementos6">6</a>
-          </li>
-        </ul>
-      </div>
+        <div class="containerEle" id="elem1" style="display:none">
+          <ul class="slider1" >
+            <li id="elementos1">
+              <img src="Imagenes/04.Datos especificos.jpg" alt="Datos Especificos">
+            </li>
+            <li id="elementos2"><img src="Imagenes/05.Contexto histórico.jpg" alt="Contexto Histórico">
+            </li>
+            <li id="elementos3"><img src="Imagenes/06.Resumen.jpg" alt="Resumen libro:'El pasaje' "></li>
+            <li id="elementos4"><img src="Imagenes/07.il.Personajes.jpg" alt="Diagrama de Personajes"></li>
+            <li id="elementos5"><img src="Imagenes/08.il.Temporalidad.jpg" alt="Diagrama de Temporalidad"></li>
+            <li id="elementos6"><img src="Imagenes/09.Espacios Narrativos.jpg" alt="Espacios Narrativos presentes en el imaginario del libro"></li>
+          </ul>
+        </div>
+        <div class="boxmenu1" id="menu1" style="visibility:hidden">
+          <ul class="menu1">
+            <li>
+              <a href="#elementos1">1</a>
+            </li>
+            <li>
+              <a href="#elementos2">2</a>
+            </li>
+            <li>
+              <a href="#elementos3">3</a>
+            </li>
+            <li>
+              <a href="#elementos4">4</a>
+            </li>
+            <li>
+              <a href="#elementos5">5</a>
+            </li>
+            <li>
+              <a href="#elementos6">6</a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="containerAna" id="ana1" style="display:none">
-        <ul class="slider2" >
-          <li id="analisis1"><img src="Imagenes/10.Problemas.jpg" alt="Problemas de la Investigación"></li>
-          <li id="analisis2"><img src="Imagenes/11.F1.jpg" alt="Fragmento n°1 "></li>
-          <li id="analisis3"><img src="Imagenes/11.il.F1.jpg" alt="Ilustración Fragmento n°1"></li>
-          <li id="analisis4"> <img src="Imagenes/11.F2.jpg" alt="Fragmento n°2 "> </li>
-          <li id="analisis5"> <img src="Imagenes/11.F2.2.jpg" alt="Fragmento n°2"> </li>
-          <li id="analisis6"><img src="Imagenes/11.il.F2.jpg" alt="Ilustración Fragmento n°2"></li>
-          <li id="analisis7"><img src="Imagenes/11.il.Planta Cité.jpg" alt="Ilustración Planta Cité"></li>
-          <li id="analisis8"><img src="Imagenes/11.il.Casa E1.jpg" alt="Ilustración Planta Casa E Nivel° 1"></li>
-          <li id="analisis9"><img src="Imagenes/11.il.Casa E2.jpg" alt="Ilustración Planta Casa E Nivel° 2"></li>
-        </ul>
-      </div>
-      <div class="boxmenu2" id="menu2" style="visibility:hidden">
-        <ul class="menu2">
-          <li>
-            <a href="#analisis1">1</a>
-          </li>
-          <li>
-            <a href="#analisis2">2</a>
-          </li>
-          <li>
-            <a href="#analisis3">3</a>
-          </li>
-          <li>
-            <a href="#analisis4">4</a>
-          </li>
-          <li>
-            <a href="#analisis5">5</a>
-          </li>
-          <li>
-            <a href="#analisis6">6</a>
-          </li>
-          <li>
-            <a href="#analisis7">7</a>
-          </li>
-          <li>
-            <a href="#analisis8">8</a>
-          </li>
-          <li>
-            <a href="#analisis9">9</a>
-          </li>
-        </ul>
-      </div>
-
-
-      <div class="containerPen" id="pen1" style="display:none">
-        <ul class="slider3" >
-          <li id="penumbra1">
-            <img src="Imagenes/12.F3.jpg" alt="Fragmento n°3, La Penumbra.">
-          </li>
-          <li id="penumbra2"><img src="Imagenes/12.F3.2.jpg" alt="Fragmento n°3, La Penumbra.">
-          </li>
-          <li id="penumbra3"><img src="Imagenes/12.il.F3.jpg" alt="Ilustración Fragmento n°3, La Penumbra."></li>
-          <li id="penumbra4"><img src="Imagenes/12.F4.jpg" alt="Fragmento n°4, La Penumbra."></li>
-          <li id="penumbra5"><img src="Imagenes/12.F4.2.jpg" alt="Fragmento n°4, La Penumbra."></li>
-          <li id="penumbra6"><img src="Imagenes/12.F5.jpg" alt="Fragmento n°5, La Penumbra."></li>
-          <li id="penumbra7"><img src="Imagenes/12.il.F5.jpg" alt="Ilustración Fragmento n°5, La Penumbra."></li>
-          <li id="penumbra8"><img src="Imagenes/12.F6.jpg" alt="Fragmento n°6, La Penumbra."></li>
-          <li id="penumbra9"><img src="Imagenes/12.il.F6.jpg" alt="Ilustración Fragmento n°6, La Penumbra."></li>
-        </ul>
-      </div>
-      <div class="boxmenu3" id="menu3" style="visibility:hidden">
-        <ul class="menu3">
-          <li>
-            <a href="#penumbra1">1</a>
-          </li>
-          <li>
-            <a href="#penumbra2">2</a>
-          </li>
-          <li>
-            <a href="#penumbra3">3</a>
-          </li>
-          <li>
-            <a href="#penumbra4">4</a>
-          </li>
-          <li>
-            <a href="#penumbra5">5</a>
-          </li>
-          <li>
-            <a href="#penumbra6">6</a>
-          </li>
-          <li>
-            <a href="#penumbra7">7</a>
-          </li>
-          <li>
-            <a href="#penumbra8">8</a>
-          </li>
-          <li>
-            <a href="#penumbra9">9</a>
-          </li>
-        </ul>
-      </div>
+        <div class="containerAna" id="ana1" style="display:none">
+          <ul class="slider2" >
+            <li id="analisis1"><img src="Imagenes/10.Problemas.jpg" alt="Problemas de la Investigación"></li>
+            <li id="analisis2"><img src="Imagenes/11.F1.jpg" alt="Fragmento n°1 "></li>
+            <li id="analisis3"><img src="Imagenes/11.il.F1.jpg" alt="Ilustración Fragmento n°1"></li>
+            <li id="analisis4"> <img src="Imagenes/11.F2.jpg" alt="Fragmento n°2 "> </li>
+            <li id="analisis5"> <img src="Imagenes/11.F2.2.jpg" alt="Fragmento n°2"> </li>
+            <li id="analisis6"><img src="Imagenes/11.il.F2.jpg" alt="Ilustración Fragmento n°2"></li>
+            <li id="analisis7"><img src="Imagenes/11.il.Planta Cité.jpg" alt="Ilustración Planta Cité"></li>
+            <li id="analisis8"><img src="Imagenes/11.il.Casa E1.jpg" alt="Ilustración Planta Casa E Nivel° 1"></li>
+            <li id="analisis9"><img src="Imagenes/11.il.Casa E2.jpg" alt="Ilustración Planta Casa E Nivel° 2"></li>
+          </ul>
+        </div>
+        <div class="boxmenu2" id="menu2" style="visibility:hidden">
+          <ul class="menu2">
+            <li>
+              <a href="#analisis1">1</a>
+            </li>
+            <li>
+              <a href="#analisis2">2</a>
+            </li>
+            <li>
+              <a href="#analisis3">3</a>
+            </li>
+            <li>
+              <a href="#analisis4">4</a>
+            </li>
+            <li>
+              <a href="#analisis5">5</a>
+            </li>
+            <li>
+              <a href="#analisis6">6</a>
+            </li>
+            <li>
+              <a href="#analisis7">7</a>
+            </li>
+            <li>
+              <a href="#analisis8">8</a>
+            </li>
+            <li>
+              <a href="#analisis9">9</a>
+            </li>
+          </ul>
+        </div>
 
 
-      <div class="containerL" id="luz1" style="display:none">
-        <ul class="slider4" >
-          <li id="laluz1"><img src="Imagenes/13.F7.jpg" alt="Fragmento n°7, La Luz."></li>
-          <li id="laluz2"><img src="Imagenes/13.F7.2.jpg" alt="Fragmento n°7, La Luz."></li>
-          <li id="laluz3"><img src="Imagenes/13.il.F7.jpg" alt="Fragmento n°7, La Luz."></li>
-          <li id="laluz4"><img src="Imagenes/13.F8.jpg" alt="Fragmento n°8, La Luz."></li>
-          <li id="laluz5"><img src="Imagenes/13.F9.jpg" alt="Fragmento n°9, La Luz."></li>
-          <li id="laluz6"><img src="Imagenes/13.il.F9.jpg" alt="Ilustración Fragmento n°9, La Luz."></li>
-          <li id="laluz7"><img src="Imagenes/13.F10.jpg" alt="Fragmento n°10"></li>
-          <li id="laluz8"><img src="Imagenes/13.F10.2.jpg" alt="Fragmento n°10"></li>
-          <li id="laluz9"><img src="Imagenes/13.il.F10.jpg" alt="Ilustración Fragmento n°10"></li>
-        </ul>
-      </div>
-      <div class="boxmenu4" id="menu4" style="visibility:hidden">
-        <ul class="menu4">
-          <li>
-            <a href="#laluz1">1</a>
-          </li>
-          <li>
-            <a href="#laluz2">2</a>
-          </li>
-          <li>
-            <a href="#laluz3">3</a>
-          </li>
-          <li>
-            <a href="#laluz4">4</a>
-          </li>
-          <li>
-            <a href="#laluz5">5</a>
-          </li>
-          <li>
-            <a href="#laluz6">6</a>
-          </li>
-          <li>
-            <a href="#laluz7">7</a>
-          </li>
-          <li>
-            <a href="#laluz8">8</a>
-          </li>
-          <li>
-            <a href="#laluz9">9</a>
-          </li>
-        </ul>
+        <div class="containerPen" id="pen1" style="display:none">
+          <ul class="slider3" >
+            <li id="penumbra1">
+              <img src="Imagenes/12.F3.jpg" alt="Fragmento n°3, La Penumbra.">
+            </li>
+            <li id="penumbra2"><img src="Imagenes/12.F3.2.jpg" alt="Fragmento n°3, La Penumbra.">
+            </li>
+            <li id="penumbra3"><img src="Imagenes/12.il.F3.jpg" alt="Ilustración Fragmento n°3, La Penumbra."></li>
+            <li id="penumbra4"><img src="Imagenes/12.F4.jpg" alt="Fragmento n°4, La Penumbra."></li>
+            <li id="penumbra5"><img src="Imagenes/12.F4.2.jpg" alt="Fragmento n°4, La Penumbra."></li>
+            <li id="penumbra6"><img src="Imagenes/12.F5.jpg" alt="Fragmento n°5, La Penumbra."></li>
+            <li id="penumbra7"><img src="Imagenes/12.il.F5.jpg" alt="Ilustración Fragmento n°5, La Penumbra."></li>
+            <li id="penumbra8"><img src="Imagenes/12.F6.jpg" alt="Fragmento n°6, La Penumbra."></li>
+            <li id="penumbra9"><img src="Imagenes/12.il.F6.jpg" alt="Ilustración Fragmento n°6, La Penumbra."></li>
+          </ul>
+        </div>
+        <div class="boxmenu3" id="menu3" style="visibility:hidden">
+          <ul class="menu3">
+            <li>
+              <a href="#penumbra1">1</a>
+            </li>
+            <li>
+              <a href="#penumbra2">2</a>
+            </li>
+            <li>
+              <a href="#penumbra3">3</a>
+            </li>
+            <li>
+              <a href="#penumbra4">4</a>
+            </li>
+            <li>
+              <a href="#penumbra5">5</a>
+            </li>
+            <li>
+              <a href="#penumbra6">6</a>
+            </li>
+            <li>
+              <a href="#penumbra7">7</a>
+            </li>
+            <li>
+              <a href="#penumbra8">8</a>
+            </li>
+            <li>
+              <a href="#penumbra9">9</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="containerL" id="luz1" style="display:none">
+          <ul class="slider4" >
+            <li id="laluz1"><img src="Imagenes/13.F7.jpg" alt="Fragmento n°7, La Luz."></li>
+            <li id="laluz2"><img src="Imagenes/13.F7.2.jpg" alt="Fragmento n°7, La Luz."></li>
+            <li id="laluz3"><img src="Imagenes/13.il.F7.jpg" alt="Fragmento n°7, La Luz."></li>
+            <li id="laluz4"><img src="Imagenes/13.F8.jpg" alt="Fragmento n°8, La Luz."></li>
+            <li id="laluz5"><img src="Imagenes/13.F9.jpg" alt="Fragmento n°9, La Luz."></li>
+            <li id="laluz6"><img src="Imagenes/13.il.F9.jpg" alt="Ilustración Fragmento n°9, La Luz."></li>
+            <li id="laluz7"><img src="Imagenes/13.F10.jpg" alt="Fragmento n°10"></li>
+            <li id="laluz8"><img src="Imagenes/13.F10.2.jpg" alt="Fragmento n°10"></li>
+            <li id="laluz9"><img src="Imagenes/13.il.F10.jpg" alt="Ilustración Fragmento n°10"></li>
+          </ul>
+        </div>
+        <div class="boxmenu4" id="menu4" style="visibility:hidden">
+          <ul class="menu4">
+            <li>
+              <a href="#laluz1">1</a>
+            </li>
+            <li>
+              <a href="#laluz2">2</a>
+            </li>
+            <li>
+              <a href="#laluz3">3</a>
+            </li>
+            <li>
+              <a href="#laluz4">4</a>
+            </li>
+            <li>
+              <a href="#laluz5">5</a>
+            </li>
+            <li>
+              <a href="#laluz6">6</a>
+            </li>
+            <li>
+              <a href="#laluz7">7</a>
+            </li>
+            <li>
+              <a href="#laluz8">8</a>
+            </li>
+            <li>
+              <a href="#laluz9">9</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="containerCon" id="con1" style="display:none">
+          <ul class="slider5" >
+            <li id="conclusion1"><img src="Imagenes/14.Conclusión1.jpg" alt="Conclusión"></li>
+            <li id="conclusión2"><img src="Imagenes/14.Conclusión2.jpg" alt="Conclusión"></li>
+            <li id="conclusión3"><img src="Imagenes/14.Conclusión3.jpg" alt="Conclusión"></li>
+          </ul>
+        </div>
+        <div class="boxmenu5" id="menu5" style="visibility:hidden">
+          <ul class="menu5">
+            <li>
+              <a href="#conclusion1">1</a>
+            </li>
+            <li>
+              <a href="#conclusión2">2</a>
+            </li>
+            <li>
+              <a href="#conclusión3">3</a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="containerCon" id="con1" style="display:none">
-        <ul class="slider5" >
-          <li id="conclusion1"><img src="Imagenes/14.Conclusión1.jpg" alt="Conclusión"></li>
-          <li id="conclusión2"><img src="Imagenes/14.Conclusión2.jpg" alt="Conclusión"></li>
-          <li id="conclusión3"><img src="Imagenes/14.Conclusión3.jpg" alt="Conclusión"></li>
-        </ul>
+
+      <div class="Cerrar">
+        <button class="C"onclick="Cerrar()">Cerrar</button>
       </div>
-      <div class="boxmenu5" id="menu5" style="visibility:hidden">
-        <ul class="menu5">
-          <li>
-            <a href="#conclusion1">1</a>
-          </li>
-          <li>
-            <a href="#conclusión2">2</a>
-          </li>
-          <li>
-            <a href="#conclusión3">3</a>
-          </li>
-        </ul>
+      <br>
+      <br>
+      <div >
+        <p class="Fin">Página diseñada por: Javiera Navarrete Garrido.</p>
       </div>
+
+
+
+
     </div>
 
-
-    <div class="Cerrar">
-      <button class="C"onclick="Cerrar()">Cerrar</button>
-    </div>
-    <br>
-    <br>
-    <div >
-      <p class="Fin">Página diseñada por: Javiera Navarrete Garrido.</p>
-    </div>
 
 
     <script src="js/script.js"  type="text/javascript">

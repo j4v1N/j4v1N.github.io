@@ -1,3 +1,7 @@
+.containerMain{
+  display: flex;
+}
+
 body{
   background-color: black;
   background-image: url("Fondo 2.jpg");
