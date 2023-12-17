@@ -32,8 +32,8 @@ body{
   display: block;
 }
 .Titulo{
-
-  /* height:185px; */
+  background-color: white;
+  height:inherit;
   border-style: hidden;
 
   padding-top: 10px;
